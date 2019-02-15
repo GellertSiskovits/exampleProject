@@ -1,0 +1,15 @@
+<mvc:View controllerName="stack.stack.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{1}">
+					<content>
+						<Image src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg" width="200px" height="200px" />
+						<Image src='sap-icon://add' />
+						<Button text="asdad" press="onNav"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
